@@ -3,6 +3,7 @@ import PropTypes from 'prop-types';
 
 class Title extends React.Component {
   render() {
+    console.log('minhas props', this.props);
     const { headline } = this.props;
     return (
       <h2>
