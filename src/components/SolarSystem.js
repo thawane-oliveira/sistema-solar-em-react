@@ -2,22 +2,26 @@ import React from 'react';
 import Title from './Title';
 import planets from '../data/planets';
 import PlanetCard from './PlanetCard';
+import './style.css';
 
 class SolarSystem extends React.Component {
   render() {
     const planetsProp = 'Planetas';
     return (
-      <div data-testid="solar-system">
+      <>
         <Title headline={ planetsProp } />
-        {planets.map((planet) => (
-          <PlanetCard
-            key={ planet.name }
-            planetName={ planet.name }
-            planetImage={ planet.image }
-          />
-        ))}
-        ;
-      </div>
+        <div className="container-planets" data-testid="solar-system">
+          {planets.map((planet, index) => (
+            <PlanetCard
+              key={ planet.name }
+              planetName={ planet.name }
+              planetImage={ planet.image }
+              number={ index }
+            />
+          ))}
+          ;
+        </div>
+      </>
     );
   }
 }
