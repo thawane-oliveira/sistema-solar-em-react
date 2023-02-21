@@ -1,13 +1,30 @@
-# :construction: README customizado em construção ! :construction:
-<!-- Olá, Tryber!
-Esse é apenas um arquivo inicial para o README do seu projeto no qual você pode customizar e reutilizar todas as vezes que for executar o trybe-publisher.
+<h2>Sistema Solar em React</h2>
 
-Para deixá-lo com a sua cara, basta alterar o seguinte arquivo da sua máquina: ~/.student-repo-publisher/custom/_NEW_README.md
+Primeiro projeto em React realizado na Trybe. O desafio foi renderizar em tela os planetas do sistema solar e logo abaixo, missões espaciais relacionadas aos mesmos.</br>
+O React possibilitou a passagem de informações via props, criar componentes de classe e também criar componentes a partir de um array.
 
-É essencial que você preencha esse documento por conta própria, ok?
-Não deixe de usar nossas dicas de escrita de README de projetos, e deixe sua criatividade brilhar!
-:warning: IMPORTANTE: você precisa deixar nítido:
-- quais arquivos/pastas foram desenvolvidos por você; 
-- quais arquivos/pastas foram desenvolvidos por outra pessoa estudante;
-- quais arquivos/pastas foram desenvolvidos pela Trybe.
--->
+<h3>Tecnologias utilizadas</h3>
+
+<li>JavaScript</li>
+<li>React</li>
+<li>CSS</li>
+
+<h3>Instalando Dependências</h3>
+
+Em seu terminal:</br> 
+cd sistema-solar-em-react/</br>
+npm install ou npm i
+
+<h3>Visualizando em seu navegador</h3>
+
+Em seu terminal:</br>
+cd sistema-solar-em-react/</br>
+npm start
+
+<h3>Rodando os testes da aplicação</h3>
+
+Em seu terminal:</br>
+cd sistema-solar-em-react/</br>
+npm test
+
+<img src="https://imgur.com/imLKgUI.png" alt="imagem do projeto sistema solar em react"  min-width="400px" max-width="600px" width="600px" />
